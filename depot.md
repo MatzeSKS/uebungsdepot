@@ -1,6 +1,6 @@
 # Übungsdepots (reine Simulation, keine Anlageberatung)
 
-Letzter Lauf: 01.11.2026 (Sonntag, nur Depot B geprüft)
+Letzter Lauf: 02.11.2026 (Montag, Lauf ohne Kursdaten, keine Bewertung, keine Orders)
 
 ## Regeln
 
@@ -52,6 +52,8 @@ Eingezahlt: 10.000 EUR. Nächste Einzahlung: 17.11.2026.
 - 18.11.2026: Nvidia-Quartalszahlen
 
 ## Offene Punkte
+- Netzwerkfreigabe fehlt: Die Cloud-Umgebung blockiert api.coingecko.com, ls-tc.de u. a. (403 bzw. Namensauflösung fehlgeschlagen). Ohne Freigabe dieser Domains sind keine Kurse abrufbar. Lauf vom 02.11. blieb deshalb ohne Bewertung.
+- Gold-Schluss vom 02.11. (Regel 3.900 USD) nicht geprüft; Status der Halbierungsregel unverändert.
 - Lilly liegt mit 29,8 % knapp unter der 30-%-Grenze. Bei weiterem Anstieg muss im nächsten Lauf die Grenze geprüft werden.
 
 ## Verlauf
@@ -100,3 +102,12 @@ Bestände wie vorgegeben übernommen. Kontrolle: Die Einstandswerte plus Bargeld
 
 ### 01.11.2026: Umzug in die Cloud
 Die Datei wurde vom lokalen Rechner in das GitHub-Repository MatzeSKS/uebungsdepot übernommen. Bestände unverändert. Ab jetzt laufen die Aktualisierungen als Cloud-Aufgaben (werktags 22:30 beide Depots, sonntags 18:00 nur Depot B, Ortszeit Wien).
+
+### 02.11.2026: Lauf 3 (Montag, Lauf ohne Kursdaten)
+**Kurse:** Keine abrufbar. CoinGecko-API und ls-tc.de lieferten 403 (Proxy) bzw. Namensauflösung fehlgeschlagen. Die Websuche fand nur undatierte Bitcoin-Momentaufnahmen (ca. 55.000–57.000 EUR) ohne Datum und nicht mit den Vortageskursen (69.756 EUR) vereinbar. Sie wurden deshalb nicht verwendet.
+
+**Orders:** keine. Ohne verlässliche Kurse und Nachrichten ist keine regelkonforme Entscheidung möglich. Bestände und Bewertungen vom 31.10. (Depot A) und 01.11. (Depot B) bleiben unverändert stehen.
+
+**Einzahlungen:** keine fällig (nächste 13.11. und 17.11.)
+
+**Korrekturen:** keine
