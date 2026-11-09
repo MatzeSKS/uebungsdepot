@@ -1,6 +1,6 @@
 # Übungsdepots (reine Simulation, keine Anlageberatung)
 
-Letzter Lauf: 08.11.2026 (Sonntag, nur Depot B, Lauf ohne Kursdaten, keine Bewertung, keine Orders)
+Letzter Lauf: 09.11.2026 (Montag, Lauf ohne Kursdaten, keine Bewertung, keine Orders)
 
 ## Regeln
 
@@ -52,7 +52,7 @@ Eingezahlt: 10.000 EUR. Nächste Einzahlung: 17.11.2026.
 - 18.11.2026: Nvidia-Quartalszahlen
 
 ## Offene Punkte
-- Netzwerkfreigabe fehlt: Die Cloud-Umgebung blockiert api.coingecko.com, ls-tc.de u. a. (403 bzw. Namensauflösung fehlgeschlagen). Ohne Freigabe dieser Domains sind keine Kurse abrufbar. Läufe vom 02.11., 03.11., 04.11., 05.11., 06.11. und 08.11. blieben deshalb ohne Bewertung. Zusätzlich blockiert: boerse.de (Namensauflösung fehlgeschlagen).
+- Netzwerkfreigabe fehlt: Die Cloud-Umgebung blockiert api.coingecko.com, ls-tc.de u. a. (403 bzw. Namensauflösung fehlgeschlagen). Ohne Freigabe dieser Domains sind keine Kurse abrufbar. Läufe vom 02.11., 03.11., 04.11., 05.11., 06.11., 08.11. und 09.11. blieben deshalb ohne Bewertung. Zusätzlich blockiert: boerse.de (Namensauflösung fehlgeschlagen).
 - Gold-Schlüsse vom 02.11. bis 06.11. (Regel 3.900 USD) nicht geprüft; Status der Halbierungsregel unverändert.
 - Lilly liegt mit 29,8 % knapp unter der 30-%-Grenze. Bei weiterem Anstieg muss im nächsten Lauf die Grenze geprüft werden.
 
@@ -157,3 +157,12 @@ Die Datei wurde vom lokalen Rechner in das GitHub-Repository MatzeSKS/uebungsdep
 **Einzahlungen:** keine fällig (nächste 17.11.)
 
 **Korrekturen:** keine. Depot A wurde nicht geprüft, Bestand und Bewertung vom 31.10. bleiben unverändert. Der Checkout stand wieder auf losem HEAD; der Lauf wurde auf master gesetzt.
+
+### 09.11.2026: Lauf 9 (Montag, Lauf ohne Kursdaten)
+**Kurse:** Keine abrufbar. api.coingecko.com: Proxy 403 (curl) bzw. Namensauflösung fehlgeschlagen (WebFetch); www.ls-tc.de: Proxy 403. Die Websuche lieferte nur einen datierten Wert von cryptoticker.io: BTC 75.692 USD (ca. 67.609 EUR) am 06.11.2026 morgens, also nicht von heute. Als Orientierung notiert, nicht für Bewertung oder Orders verwendet. Keine Aktien-, Gold- oder Nachrichtendaten von heute gefunden.
+
+**Orders:** keine. Ohne verlässliche Kurse ist keine regelkonforme Entscheidung möglich. Bestände und Bewertungen vom 31.10. (Depot A) und 01.11. (Depot B) bleiben stehen.
+
+**Einzahlungen:** keine fällig (nächste 13.11. und 17.11.)
+
+**Korrekturen:** keine
