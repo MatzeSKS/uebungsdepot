@@ -1,8 +1,8 @@
 # Übungsdepots (reine Simulation, keine Anlageberatung)
 
-Letzter Lauf: 12.11.2026 (Donnerstag, Lauf ohne Kursdaten, keine Bewertung, keine Orders)
+Letzter Lauf: 13.11.2026 (Freitag, Lauf ohne Kursdaten, Einzahlung Depot A gebucht, keine Orders)
 
-Vorheriger Lauf: 11.11.2026 (Mittwoch, Lauf ohne Kursdaten, keine Bewertung, keine Orders)
+Vorheriger Lauf: 12.11.2026 (Donnerstag, Lauf ohne Kursdaten, keine Bewertung, keine Orders)
 
 ## Regeln
 
@@ -29,7 +29,7 @@ Vorheriger Lauf: 11.11.2026 (Mittwoch, Lauf ohne Kursdaten, keine Bewertung, kei
 | Bargeld | | | | 1.710,77 | 17,1 % | |
 | **Summe** | | | | **9.976,32** | | **−0,24 %** |
 
-Eingezahlt: 10.000 EUR. Nächste Einzahlung: 13.11.2026.
+Eingezahlt: 10.500 EUR (inkl. Einzahlung 13.11.2026, siehe Verlauf). Bargeld seit 13.11.: 2.210,77 EUR (Kurse der Positionen weiter Stand 31.10.). Nächste Einzahlung: 13.12.2026.
 
 ## Aktueller Bestand Depot B (Stand 01.11.2026)
 
@@ -49,7 +49,8 @@ Eingezahlt: 10.000 EUR. Nächste Einzahlung: 17.11.2026.
 **Beide Depots zusammen: 19.426,13 EUR bei 20.000 EUR eingezahlt (−573,87 EUR, −2,87 %).** Depot A mit dem Stand vom 31.10. (9.976,32 EUR), am 01.11. nicht neu bewertet.
 
 ## Termine
-- 13.11.2026: Einzahlung Depot A (+500 EUR)
+- 13.11.2026: Einzahlung Depot A (+500 EUR) gebucht
+- 13.12.2026: nächste Einzahlung Depot A
 - 17.11.2026: Einzahlung Depot B (+500 EUR)
 - 18.11.2026: Nvidia-Quartalszahlen
 
@@ -57,6 +58,8 @@ Eingezahlt: 10.000 EUR. Nächste Einzahlung: 17.11.2026.
 - Netzwerkfreigabe fehlt: Die Cloud-Umgebung blockiert api.coingecko.com, ls-tc.de u. a. (403 bzw. Namensauflösung fehlgeschlagen). Ohne Freigabe dieser Domains sind keine Kurse abrufbar. Läufe vom 02.11., 03.11., 04.11., 05.11., 06.11., 08.11., 09.11., 10.11., 11.11. und 12.11. blieben deshalb ohne Bewertung. Zusätzlich blockiert: boerse.de (Namensauflösung fehlgeschlagen).
 - Gold-Schlüsse vom 02.11. bis 09.11. (Regel 3.900 USD) nicht verlässlich geprüft (Websuche 10.11.: Gold laut Blogs/Portalen ca. 3.901 USD am 02.11., 4.018 am 04.11., 4.128 am 05.11., ca. 4.050 am 06.11., also vermutlich wieder über 3.900 USD; unbestätigt, Status daher unverändert); Status der Halbierungsregel unverändert.
 - Lilly liegt mit 29,8 % knapp unter der 30-%-Grenze. Bei weiterem Anstieg muss im nächsten Lauf die Grenze geprüft werden.
+
+- Depot A: Nach der Einzahlung vom 13.11. liegt Bargeld bei 2.210,77 EUR, grob 21 % (über dem Band 5–15 %), gerechnet mit Kursen vom 31.10. Sobald Kurse verfügbar sind, Anlage prüfen (Umschichten nur bei mehr als 5 Prozentpunkten Abweichung, das ist dann erfüllt). Läufe vom 13.11. ohne Bewertung.
 
 ## Verlauf
 
@@ -195,3 +198,12 @@ Die Datei wurde vom lokalen Rechner in das GitHub-Repository MatzeSKS/uebungsdep
 **Einzahlungen:** keine fällig am 12.11. Morgen, 13.11., sind 500 EUR für Depot A fällig, am 17.11. 500 EUR für Depot B (Nachbuchung mit richtigem Datum, falls der Lauf ausfällt).
 
 **Korrekturen:** keine
+
+### 13.11.2026: Lauf 13 (Freitag, Lauf ohne Kursdaten)
+**Kurse:** Keine abrufbar. api.coingecko.com, www.ls-tc.de, www.boerse.de und www.gold.de: kein Verbindungsaufbau (curl Status 000). Die Websuche lieferte für Bitcoin nichts von heute (neuester datierter Wert 73.013 EUR vom 20.10.2026, sonst undatierte Werte zwischen ca. 56.000 und 83.000 EUR). Nichts davon wurde verwendet. Keine Aktien-, Gold- oder Nachrichtendaten von heute gefunden.
+
+**Orders:** keine. Ohne verlässliche Kurse ist keine regelkonforme Entscheidung möglich. Status der Gold-Halbierungsregel unverändert.
+
+**Einzahlungen:** Depot A, 13.11.2026: +500 EUR Bargeld gebucht (Bargeld 1.710,77 → 2.210,77 EUR; eingezahlt 10.500 EUR). Depot B: am 17.11. fällig (Nachbuchung mit richtigem Datum, falls der Lauf ausfällt).
+
+**Korrekturen:** keine. Depotwerte bleiben Stand 31.10. (A, ohne die neue Einzahlung 9.976,32 EUR; mit Einzahlung 10.476,32 EUR bei 10.500 EUR eingezahlt) bzw. 01.11. (B).
