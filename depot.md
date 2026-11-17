@@ -1,8 +1,8 @@
 # Übungsdepots (reine Simulation, keine Anlageberatung)
 
-Letzter Lauf: 16.11.2026 (Montag, Lauf ohne Kursdaten, keine Orders)
+Letzter Lauf: 17.11.2026 (Dienstag, Lauf ohne Kursdaten, keine Orders, Einzahlung Depot B gebucht)
 
-Vorheriger Lauf: 15.11.2026 (Sonntag, nur Depot B, Lauf ohne Kursdaten, keine Orders)
+Vorheriger Lauf: 16.11.2026 (Montag, Lauf ohne Kursdaten, keine Orders)
 
 ## Regeln
 
@@ -44,18 +44,19 @@ Eingezahlt: 10.500 EUR (inkl. Einzahlung 13.11.2026, siehe Verlauf). Bargeld sei
 | Bargeld | | | | 1.006,40 | 10,6 % | |
 | **Summe** | | | | **9.449,81** | | **−5,50 %** |
 
-Eingezahlt: 10.000 EUR. Nächste Einzahlung: 17.11.2026.
+Eingezahlt: 10.500 EUR (inkl. Einzahlung 17.11.2026, siehe Verlauf). Bargeld seit 17.11.: 1.506,40 EUR (Kurse der Positionen weiter Stand 01.11.). Nächste Einzahlung: 17.12.2026.
 
 **Beide Depots zusammen: 19.426,13 EUR bei 20.000 EUR eingezahlt (−573,87 EUR, −2,87 %).** Depot A mit dem Stand vom 31.10. (9.976,32 EUR), am 01.11. nicht neu bewertet.
 
 ## Termine
 - 13.11.2026: Einzahlung Depot A (+500 EUR) gebucht
 - 13.12.2026: nächste Einzahlung Depot A
-- 17.11.2026: Einzahlung Depot B (+500 EUR)
+- 17.11.2026: Einzahlung Depot B (+500 EUR) gebucht
+- 17.12.2026: nächste Einzahlung Depot B
 - 18.11.2026: Nvidia-Quartalszahlen
 
 ## Offene Punkte
-- Netzwerkfreigabe fehlt: Die Cloud-Umgebung blockiert api.coingecko.com, ls-tc.de u. a. (403 bzw. Namensauflösung fehlgeschlagen). Ohne Freigabe dieser Domains sind keine Kurse abrufbar. Läufe vom 02.11., 03.11., 04.11., 05.11., 06.11., 08.11., 09.11., 10.11., 11.11., 12.11., 13.11., 15.11. und 16.11. blieben deshalb ohne Bewertung. Zusätzlich blockiert: boerse.de (Namensauflösung fehlgeschlagen).
+- Netzwerkfreigabe fehlt: Die Cloud-Umgebung blockiert api.coingecko.com, ls-tc.de u. a. (403 bzw. Namensauflösung fehlgeschlagen). Ohne Freigabe dieser Domains sind keine Kurse abrufbar. Läufe vom 02.11., 03.11., 04.11., 05.11., 06.11., 08.11., 09.11., 10.11., 11.11., 12.11., 13.11., 15.11. , 16.11. und 17.11. blieben deshalb ohne Bewertung. Zusätzlich blockiert: boerse.de (Namensauflösung fehlgeschlagen).
 - Gold-Schlüsse vom 02.11. bis 09.11. (Regel 3.900 USD) nicht verlässlich geprüft (Websuche 10.11.: Gold laut Blogs/Portalen ca. 3.901 USD am 02.11., 4.018 am 04.11., 4.128 am 05.11., ca. 4.050 am 06.11., also vermutlich wieder über 3.900 USD; unbestätigt, Status daher unverändert); Status der Halbierungsregel unverändert.
 - Lilly liegt mit 29,8 % knapp unter der 30-%-Grenze. Bei weiterem Anstieg muss im nächsten Lauf die Grenze geprüft werden.
 
@@ -225,3 +226,12 @@ Die Datei wurde vom lokalen Rechner in das GitHub-Repository MatzeSKS/uebungsdep
 **Einzahlungen:** keine fällig am 16.11. Depot B: 500 EUR am 17.11. (Dienstag), wird im nächsten Lauf gebucht, sonst nachgebucht mit richtigem Datum.
 
 **Korrekturen:** keine. Der Checkout stand auf losem HEAD; der Lauf wurde auf master gesetzt.
+
+### 17.11.2026: Lauf 16 (Dienstag, Lauf ohne Kursdaten)
+**Kurse:** Keine abrufbar. api.coingecko.com, www.ls-tc.de, www.boerse.de und www.gold.de: Proxy lehnt die Verbindung ab (curl: CONNECT tunnel failed, 403). Die Websuche lieferte für Bitcoin nichts von heute (neuester datierter Wert 73.013 EUR vom 20.10.2026, sonst undatierte Werte ca. 55.000-83.000 EUR). Für Gold nannte die Suche TradingView: Wochenschluss 13.11. bei 3.883,9 USD (Admiral Markets: ca. 3.881,60 USD intraday am 13.11.) und widerspricht damit den früheren Portalwerten über 4.000 USD (06.-10.11.). Quellen widersprüchlich, nicht verifiziert (https://de.tradingview.com/chart/GOLD/nwq4t421/, https://admiralmarkets.com/de/analysen/traders-blog/goldpreis-prognose-heute-13-november-2026). Nur zur Orientierung, nicht für Bewertung, Orders oder den Status der Halbierungsregel verwendet. Falls Gold zwischenzeitlich über 3.900 USD geschlossen hat und jetzt wieder darunter liegt, wäre eine erneute Halbierung fällig; das lässt sich ohne gesicherte Schlusskurse nicht prüfen.
+
+**Orders:** keine. Ohne verlässliche Kurse ist keine regelkonforme Entscheidung möglich. Bestände und Bewertungen vom 31.10. (Depot A) und 01.11. (Depot B) bleiben stehen. Status der Gold-Halbierungsregel unverändert.
+
+**Einzahlungen:** Depot B, 17.11.2026: +500 EUR Bargeld gebucht (Bargeld 1.006,40 → 1.506,40 EUR; eingezahlt 10.500 EUR). Depot A: nächste am 13.12.
+
+**Korrekturen:** keine. Depotwerte bleiben Stand 31.10. (A) bzw. 01.11. (B, ohne die neue Einzahlung 9.449,81 EUR; mit Einzahlung 9.949,81 EUR bei 10.500 EUR eingezahlt). Offen: Nvidia-Zahlen am 18.11.2026.
