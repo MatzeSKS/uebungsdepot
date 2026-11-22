@@ -1,8 +1,8 @@
 # Übungsdepots (reine Simulation, keine Anlageberatung)
 
-Letzter Lauf: 20.11.2026 (Freitag, Lauf ohne Kursdaten, keine Orders)
+Letzter Lauf: 22.11.2026 (Sonntag, nur Depot B, Lauf ohne Kursdaten, keine Orders)
 
-Vorheriger Lauf: 19.11.2026 (Donnerstag, Lauf ohne Kursdaten, keine Orders)
+Vorheriger Lauf: 20.11.2026 (Freitag, Lauf ohne Kursdaten, keine Orders)
 
 ## Regeln
 
@@ -56,7 +56,7 @@ Eingezahlt: 10.500 EUR (inkl. Einzahlung 17.11.2026, siehe Verlauf). Bargeld sei
 - 18.11.2026: Nvidia-Quartalszahlen
 
 ## Offene Punkte
-- Netzwerkfreigabe fehlt: Die Cloud-Umgebung blockiert api.coingecko.com, ls-tc.de u. a. (403 bzw. Namensauflösung fehlgeschlagen). Ohne Freigabe dieser Domains sind keine Kurse abrufbar. Läufe vom 02.11., 03.11., 04.11., 05.11., 06.11., 08.11., 09.11., 10.11., 11.11., 12.11., 13.11., 15.11. , 16.11., 17.11., 18.11., 19.11. und 20.11. blieben deshalb ohne Bewertung. Zusätzlich blockiert: boerse.de (Namensauflösung fehlgeschlagen).
+- Netzwerkfreigabe fehlt: Die Cloud-Umgebung blockiert api.coingecko.com, ls-tc.de u. a. (403 bzw. Namensauflösung fehlgeschlagen). Ohne Freigabe dieser Domains sind keine Kurse abrufbar. Läufe vom 02.11., 03.11., 04.11., 05.11., 06.11., 08.11., 09.11., 10.11., 11.11., 12.11., 13.11., 15.11. , 16.11., 17.11., 18.11., 19.11., 20.11. und 22.11. blieben deshalb ohne Bewertung. Zusätzlich blockiert: boerse.de (Namensauflösung fehlgeschlagen).
 - Gold-Schlüsse vom 02.11. bis 09.11. (Regel 3.900 USD) nicht verlässlich geprüft (Websuche 10.11.: Gold laut Blogs/Portalen ca. 3.901 USD am 02.11., 4.018 am 04.11., 4.128 am 05.11., ca. 4.050 am 06.11., also vermutlich wieder über 3.900 USD; unbestätigt, Status daher unverändert); Status der Halbierungsregel unverändert.
 - Lilly liegt mit 29,8 % knapp unter der 30-%-Grenze. Bei weiterem Anstieg muss im nächsten Lauf die Grenze geprüft werden.
 
@@ -264,3 +264,12 @@ Die Datei wurde vom lokalen Rechner in das GitHub-Repository MatzeSKS/uebungsdep
 **Einzahlungen:** keine fällig (nächste 13.12. Depot A, 17.12. Depot B).
 
 **Korrekturen:** keine. Der Checkout stand wieder auf losem HEAD; der Lauf wurde auf master gesetzt.
+
+### 22.11.2026: Lauf 20 (Sonntag, nur Depot B, Lauf ohne Kursdaten)
+**Kurse:** Keine abrufbar. api.coingecko.com: Proxy lehnt die Verbindung ab (curl Status 000, 403). Die Websuche lieferte für Bitcoin nichts von heute (neueste datierte Werte 55.571,53 EUR vom 04.08.2026 und 55.966,18 EUR vom 31.07.2026, https://www.btc-echo.de/kurs/bitcoin; sonst undatierte Werte). Nichts davon wurde verwendet. Keine Nachrichten von heute gefunden.
+
+**Orders:** keine. Ohne verlässliche Kurse ist keine regelkonforme Entscheidung möglich. Bestand und Bewertung Depot B vom 01.11. (Bargeld seit 17.11.: 1.506,40 EUR) bleiben stehen.
+
+**Einzahlungen:** keine fällig (nächste 17.12. Depot B).
+
+**Korrekturen:** keine. Depot A wurde nicht geprüft, Bestand und Bewertung bleiben unverändert. Der Checkout stand auf losem HEAD; der Lauf wurde auf master gesetzt.
