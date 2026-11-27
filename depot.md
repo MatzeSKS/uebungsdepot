@@ -1,8 +1,8 @@
 # Übungsdepots (reine Simulation, keine Anlageberatung)
 
-Letzter Lauf: 26.11.2026 (Donnerstag, Lauf ohne Kursdaten, keine Orders)
+Letzter Lauf: 27.11.2026 (Freitag, Lauf ohne Kursdaten, keine Orders)
 
-Vorheriger Lauf: 25.11.2026 (Mittwoch, Lauf ohne Kursdaten, keine Orders)
+Vorheriger Lauf: 26.11.2026 (Donnerstag, Lauf ohne Kursdaten, keine Orders)
 
 ## Regeln
 
@@ -56,7 +56,7 @@ Eingezahlt: 10.500 EUR (inkl. Einzahlung 17.11.2026, siehe Verlauf). Bargeld sei
 - 18.11.2026: Nvidia-Quartalszahlen
 
 ## Offene Punkte
-- Netzwerkfreigabe fehlt: Die Cloud-Umgebung blockiert api.coingecko.com, ls-tc.de u. a. (403 bzw. Namensauflösung fehlgeschlagen). Ohne Freigabe dieser Domains sind keine Kurse abrufbar. Läufe vom 02.11., 03.11., 04.11., 05.11., 06.11., 08.11., 09.11., 10.11., 11.11., 12.11., 13.11., 15.11. , 16.11., 17.11., 18.11., 19.11., 20.11., 22.11., 23.11., 24.11., 25.11. und 26.11. blieben deshalb ohne Bewertung. Zusätzlich blockiert: boerse.de (Namensauflösung fehlgeschlagen).
+- Netzwerkfreigabe fehlt: Die Cloud-Umgebung blockiert api.coingecko.com, ls-tc.de u. a. (403 bzw. Namensauflösung fehlgeschlagen). Ohne Freigabe dieser Domains sind keine Kurse abrufbar. Läufe vom 02.11., 03.11., 04.11., 05.11., 06.11., 08.11., 09.11., 10.11., 11.11., 12.11., 13.11., 15.11. , 16.11., 17.11., 18.11., 19.11., 20.11., 22.11., 23.11., 24.11., 25.11., 26.11. und 27.11. blieben deshalb ohne Bewertung. Zusätzlich blockiert: boerse.de (Namensauflösung fehlgeschlagen).
 - Gold-Schlüsse vom 02.11. bis 09.11. (Regel 3.900 USD) nicht verlässlich geprüft (Websuche 10.11.: Gold laut Blogs/Portalen ca. 3.901 USD am 02.11., 4.018 am 04.11., 4.128 am 05.11., ca. 4.050 am 06.11., also vermutlich wieder über 3.900 USD; unbestätigt, Status daher unverändert); Status der Halbierungsregel unverändert.
 - Lilly liegt mit 29,8 % knapp unter der 30-%-Grenze. Bei weiterem Anstieg muss im nächsten Lauf die Grenze geprüft werden.
 
@@ -303,6 +303,15 @@ Die Datei wurde vom lokalen Rechner in das GitHub-Repository MatzeSKS/uebungsdep
 
 ### 26.11.2026: Lauf 24 (Donnerstag, Lauf ohne Kursdaten)
 **Kurse:** Keine abrufbar. api.coingecko.com, www.ls-tc.de und www.gold.de: kein Verbindungsaufbau (curl Status 000, Proxy 403). Die Websuche lieferte für Bitcoin nichts von heute (neueste datierte Werte 55.571,53 EUR vom 04.08.2026, 55.966,18 EUR vom 31.07.2026, https://www.btc-echo.de/kurs/bitcoin). Für Gold: 3.884,29 USD am 13.11. (goldpricedata.com), 3.845 USD am 17.11. (tiefster Stand seit Sep. 2025), widersprüchlich dazu 4.048 USD am 18.11.; nichts vom 25.11. Nur zur Orientierung, nicht für Bewertung, Orders oder die Halbierungsregel verwendet.
+
+**Orders:** keine. Ohne verlässliche Kurse ist keine regelkonforme Entscheidung möglich. Bestände und Bewertungen vom 31.10. (A) bzw. 01.11. (B) bleiben stehen. Status der Gold-Halbierungsregel unverändert.
+
+**Einzahlungen:** keine fällig (nächste 13.12. Depot A, 17.12. Depot B).
+
+**Korrekturen:** keine. Der Checkout stand auf losem HEAD; der Lauf wurde auf master gesetzt.
+
+### 27.11.2026: Lauf 25 (Freitag, Lauf ohne Kursdaten)
+**Kurse:** Keine abrufbar. api.coingecko.com, www.ls-tc.de, www.gold.de und www.boerse.de: kein Verbindungsaufbau (curl Status 000). Die Websuche lieferte für Bitcoin nichts von heute (neueste datierte Werte 55.571,53 EUR vom 04.08.2026, https://www.btc-echo.de/kurs/bitcoin, sonst undatierte Werte ca. 55.000-58.900 EUR). Für Gold: 3.884,29 USD am 13.11. (https://www.goldpricedata.com/de/), 4.048 USD am 18.11. (finanztrends, widersprüchlich); kein Schluss vom 26.11. Nur zur Orientierung, nicht für Bewertung, Orders oder die Halbierungsregel verwendet.
 
 **Orders:** keine. Ohne verlässliche Kurse ist keine regelkonforme Entscheidung möglich. Bestände und Bewertungen vom 31.10. (A) bzw. 01.11. (B) bleiben stehen. Status der Gold-Halbierungsregel unverändert.
 
